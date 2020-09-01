@@ -1,0 +1,13 @@
+.outerContainer{
+    width: 600px; 
+    height: 100vh;
+    margin: 30px auto;
+    background-color: #1A1A1D;
+}
+.innerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    height: 60%;
+}

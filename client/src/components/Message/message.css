@@ -1,0 +1,27 @@
+.messageContainer{
+    display: flex;
+    
+}
+.messageBox{
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.currentUser{
+    background-color: #2979ff;
+}
+.adminUser{
+    background-color:#e6e1e1 ;
+}
+.ml-10{
+    margin-left: 10px
+}
+.mr-10{
+    margin-right: 10px;
+}
+.name{
+    color: #818181;
+}
+.flexEnd{
+    justify-content: flex-end;
+}
