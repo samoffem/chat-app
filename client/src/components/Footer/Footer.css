@@ -1,0 +1,43 @@
+
+
+.site-footer
+{
+  background-color:#192734;
+  padding:15px 0;
+  font-size:15px;
+  line-height:24px;
+  color:#fff;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    margin-right: 20px;
+}
+i{
+    color: gainsboro;
+    align-self: center;
+}
+a{
+    text-decoration: none;
+    color: gainsboro;
+}
+
+.social-icons a{
+    background-color: #15202b;
+    list-style: none;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}

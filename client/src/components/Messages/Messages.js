@@ -1,6 +1,6 @@
-import React from "react"
+import React, {Fragment} from "react"
 import Message from '../Message/Message'
-import ScrollToBottom from 'react-scroll-to-bottom'
+import ScrollToBottom from "react-scroll-to-bottom"
 
 const Messages = ({messages, name}) => 
      (

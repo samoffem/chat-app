@@ -1,13 +1,19 @@
+
+
+
+
 .outerContainer{
-    width: 600px; 
-    height: 100vh;
+    width: 400px; 
+    height: 500px;
     margin: 30px auto;
-    background-color: #1A1A1D;
 }
+
 .innerContainer{
+     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     background-color: white;
-    height: 60%;
+    overflow: auto;
+    
 }
+

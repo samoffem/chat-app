@@ -9,7 +9,7 @@ import './chat.css'
 
 let socket
 const Chat = ({location}) => {
-    const ENDPOINT = "localhost:5000"
+    const ENDPOINT = "https://samoffem-chatapp.herokuapp.com/"
     const [name, setName] = useState("")
     const [room, setRoom] = useState("")
     const [message, setMessage] = useState("")
@@ -53,13 +53,14 @@ const Chat = ({location}) => {
 
     return (
         <div className="outerContainer">
+            <Infobar room={room} />
             <div className="innerContainer">
-                <Infobar room={room} />
-                <Messages messages={messages} name={name}/>
-                <Input message={message} setMessage={setMessage} sendMessage={sendMessage} />
-                
+                <Messages messages={messages} name={name}/>     
             </div>
+            <Input message={message} setMessage={setMessage} sendMessage={sendMessage} />
         </div>
+            
+    
     )
 }
 
